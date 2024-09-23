@@ -4,7 +4,8 @@
   "description": "aqui se haran practicas de git, unit, api y ui testing",
   "main": "index.js",
   "scripts": {
-    "test": "wdio run ./wdio.conf.js"
+    "test": "wdio run ./wdio.conf.js",
+    "reporter": "allure generate allure-results --clean && allure open"
   },
   "keywords": [],
   "author": "",
